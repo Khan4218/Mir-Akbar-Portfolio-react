@@ -25,4 +25,4 @@ This is my personal developer portfolio website built entirely with **React.js**
 ## 📬 Contact
 
 Feel free to connect with me via [LinkedIn](linkedin.com/in/mir-akbar-ali-khan-a6b26435a) or reach out via email: mirakber4@gmail.com
-
+ By Akbar
