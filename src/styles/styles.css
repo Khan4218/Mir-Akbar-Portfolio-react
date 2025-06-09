@@ -1,0 +1,16 @@
+/* ===========================
+   Global Reset & Base Styles
+=========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f172a;
+  color: #ffffff;
+  line-height: 1.6;
+}

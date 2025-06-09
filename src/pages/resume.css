@@ -1,0 +1,205 @@
+.profile-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222222;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container header {
+  background-color: white;
+  position: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-container h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.2rem;
+  color: #2c3e50;
+}
+
+.profile-container h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #34495e;
+}
+
+.profile-container h3 {
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 0.3rem;
+  color: #2980b9;
+}
+
+.profile-container h4 {
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.7rem;
+  color: #3a3a3a;
+}
+
+.profile-container p {
+  margin: 0.2rem 0;
+  font-size: 1rem;
+}
+
+.profile-container a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.profile-container a:hover,
+.profile-container a:focus {
+  text-decoration: underline;
+  outline: none;
+}
+
+.profile-container ul {
+  padding-left: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+  line-height: 1.6;
+}
+
+.profile-container li {
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+}
+
+.profile-container strong {
+  color: #2c3e50;
+}
+
+@media (max-width: 600px) {
+  .profile-container {
+    padding: 1rem 1rem;
+  }
+
+  .profile-container h1 {
+    font-size: 2rem;
+  }
+
+  .profile-container h2 {
+    font-size: 1.1rem;
+  }
+
+  .profile-container h3 {
+    font-size: 1.4rem;
+  }
+
+  .profile-container h4 {
+    font-size: 1.1rem;
+  }
+}
+
+.profile-container {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.profile-container a {
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+
+/* Dark Mode Styles */
+.profile-container.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.profile-container.dark-mode h1,
+.profile-container.dark-mode h2,
+.profile-container.dark-mode h3,
+.profile-container.dark-mode h4,
+.profile-container.dark-mode strong {
+  color: #f0f0f0;
+}
+
+.profile-container.dark-mode a {
+  color: #66aaff;
+}
+
+.profile-container.dark-mode a:hover,
+.profile-container.dark-mode a:focus {
+  text-decoration: underline;
+}
+
+/* Smooth transition for color changes */
+.profile-container,
+.profile-container a {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+
+.profile-container.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+}
+
+.profile-container.dark-mode header {
+  background-color: #1e1e1e;
+}
+
+.profile-container.dark-mode h1,
+.profile-container.dark-mode h2,
+.profile-container.dark-mode h3,
+.profile-container.dark-mode h4 {
+  color: #90caf9;
+  /* soft blue for headings */
+}
+
+.profile-container.dark-mode p,
+.profile-container.dark-mode li,
+.profile-container.dark-mode strong {
+  color: #ccc;
+}
+
+.profile-container.dark-mode a {
+  color: #82b1ff;
+}
+
+.profile-container.dark-mode a:hover,
+.profile-container.dark-mode a:focus {
+  text-decoration: underline;
+  outline: none;
+  color: #bbdefb;
+}
+
+.profile-container.dark-mode ul {
+  padding-left: 1.4rem;
+}
+
+.profile-container.dark-mode button {
+  background-color: #333;
+  color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-container.dark-mode button:hover {
+  background-color: #555;
+}
