@@ -1,4 +1,4 @@
-# Mir-Akbar-Portfolio-react
+# Mir-Ahmed-Portfolio-react
 
 This is my personal developer portfolio website built entirely with **React.js**. It highlights my technical skills, featured projects, and background as a Full Stack Developer. The application uses modern React practices, component-based architecture, and smooth client-side routing with `react-router-dom`.
 
