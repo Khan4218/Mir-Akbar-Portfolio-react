@@ -8,7 +8,7 @@ const ResumeContent = () => (
       <h2>Junior Front-End Developer with React Expertise</h2>
       <p>📞 Phone: +44 7901566273</p>
       <p>✉️ Email: mir.aak4218@gmail.com</p>
-      <p>📍 Location: Hyderabad, India</p>
+      <p>📍 Location: England,SouthHall </p>
       <p>
         🌐 Portfolio:{" "}
         <a
