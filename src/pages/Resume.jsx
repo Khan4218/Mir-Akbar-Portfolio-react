@@ -6,8 +6,8 @@ const ResumeContent = () => (
     <header>
       <h1>Mir Ahmed Ali Khan</h1>
       <h2>Junior Front-End Developer with React Expertise</h2>
-      <p>📞 Phone: +91 7893521085</p>
-      <p>✉️ Email: mirakber4@gmail.com</p>
+      <p>📞 Phone: +44 7901566273</p>
+      <p>✉️ Email: mir.aak4218@gmail.com</p>
       <p>📍 Location: Hyderabad, India</p>
       <p>
         🌐 Portfolio:{" "}
