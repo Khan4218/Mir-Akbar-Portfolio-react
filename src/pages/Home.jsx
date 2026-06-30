@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <section className="home-section">
       <div className="content-wrapper">
-        <h1 className="name">Mir Akbar Ali Khan</h1>
+        <h1 className="name">Mir Ahmed Ali Khan</h1>
 
         <h2 className="title react-title">
           <FaReact className="react-icon" />
