@@ -31,7 +31,7 @@ const About = () => {
         <h2 className="section-title">About Me</h2>
 
         <p className="about-text">
-          Hello! I’m <strong>Mir Akbar Ali Khan</strong>, a dedicated Front-End Developer with a strong foundation in HTML, CSS, JavaScript, and React.js.
+          Hello! I’m <strong>Mir Ahmed Ali Khan</strong>, a dedicated Front-End Developer with a strong foundation in HTML, CSS, JavaScript, and React.js.
           I specialize in building responsive, accessible, and high-performance web applications that provide seamless user experiences across all devices.
         </p>
         <p className="about-text">
