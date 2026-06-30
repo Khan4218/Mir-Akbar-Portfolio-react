@@ -2,7 +2,7 @@
 import "./footer.css"
 
 const Footer = () => (
-  <footer>&copy; 2025 Mir Akbar Ali Khan | All Rights Reserved.</footer>
+  <footer>&copy; 2025 Mir Ahmed Ali Khan | All Rights Reserved.</footer>
 );
 
 export default Footer;
