@@ -4,7 +4,7 @@ import "./resume.css";
 const ResumeContent = () => (
   <>
     <header>
-      <h1>Mir Akbar Ali Khan</h1>
+      <h1>Mir Ahmed Ali Khan</h1>
       <h2>Junior Front-End Developer with React Expertise</h2>
       <p>📞 Phone: +91 7893521085</p>
       <p>✉️ Email: mirakber4@gmail.com</p>
@@ -12,11 +12,11 @@ const ResumeContent = () => (
       <p>
         🌐 Portfolio:{" "}
         <a
-          href="https://mir-akbar-portfolio.netlify.app"
+          href="https://mir-ahmed-portfolio.netlify.app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          mir-akbar-portfolio.netlify.app
+          mir-ahmed-portfolio.netlify.app
         </a>
       </p>
       <p>
@@ -32,11 +32,11 @@ const ResumeContent = () => (
       <p>
         🔗 LinkedIn:{" "}
         <a
-          href="https://linkedin.com/in/mir-akbar-ali-khan-a6b26435a"
+          href="https://www.linkedin.com/in/mir-ahmed-ali-khan-a9184b17a"
           target="_blank"
           rel="noopener noreferrer"
         >
-          linkedin.com/in/mir-akbar-ali-khan-a6b26435a
+          https://www.linkedin.com/in/mir-ahmed-ali-khan-a9184b17a
         </a>
       </p>
     </header>
@@ -412,7 +412,7 @@ const Resume = () => {
   return (
     <div className={`profile-container ${darkMode ? "dark-mode" : ""}`}>
       <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        {/* <h1>Mir Akbar Ali Khan</h1> */}
+        {/* <h1>Mir Ahmed Ali Khan</h1> */}
         <button onClick={toggleDarkMode} aria-label="Toggle dark mode" style={{ fontSize: "1rem", padding: "0.5rem 1rem" }}>
           {darkMode ? "🌞 Light Mode" : "🌙 Dark Mode"}
         </button>
